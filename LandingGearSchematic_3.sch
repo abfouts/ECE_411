@@ -15752,39 +15752,11 @@ Attribution ShareAlike (CC BY-SA)</text>
 <pinref part="R21" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="NC_D1" class="0">
-<segment>
-<pinref part="SV2" gate="1" pin="2"/>
-<wire x1="172.72" y1="99.06" x2="162.56" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="R16" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="NC_D3" class="0">
-<segment>
-<pinref part="SV2" gate="1" pin="4"/>
-<wire x1="172.72" y1="101.6" x2="162.56" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="R15" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="ND_D5" class="0">
+<net name="ND_D5_R" class="0">
 <segment>
 <pinref part="SV2" gate="1" pin="6"/>
 <wire x1="172.72" y1="104.14" x2="162.56" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="NC_D7" class="0">
-<segment>
-<pinref part="SV2" gate="1" pin="8"/>
-<wire x1="172.72" y1="106.68" x2="162.56" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="R13" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="NC_D12" class="0">
-<segment>
-<pinref part="SV2" gate="1" pin="10"/>
-<wire x1="172.72" y1="109.22" x2="162.56" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="NC_D11" class="0">
@@ -15801,35 +15773,28 @@ Attribution ShareAlike (CC BY-SA)</text>
 <pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$2" class="0">
-<segment>
-<wire x1="152.4" y1="109.22" x2="144.78" y2="109.22" width="0.1524" layer="91"/>
-<label x="144.78" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="R9" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$5" class="0">
+<net name="NC_D7" class="0">
 <segment>
 <wire x1="152.4" y1="106.68" x2="144.78" y2="106.68" width="0.1524" layer="91"/>
 <label x="144.78" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="NC_D5" class="0">
 <segment>
 <wire x1="152.4" y1="104.14" x2="144.78" y2="104.14" width="0.1524" layer="91"/>
 <label x="144.78" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R14" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="NC_D3" class="0">
 <segment>
 <wire x1="152.4" y1="101.6" x2="144.78" y2="101.6" width="0.1524" layer="91"/>
 <label x="144.78" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R15" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="NC_D1" class="0">
 <segment>
 <wire x1="152.4" y1="99.06" x2="144.78" y2="99.06" width="0.1524" layer="91"/>
 <label x="144.78" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
@@ -15843,35 +15808,35 @@ Attribution ShareAlike (CC BY-SA)</text>
 <pinref part="R17" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="NC_D11_R" class="0">
 <segment>
 <pinref part="SV2" gate="1" pin="9"/>
 <wire x1="187.96" y1="109.22" x2="195.58" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="NC_D6_R" class="0">
 <segment>
 <pinref part="SV2" gate="1" pin="7"/>
 <wire x1="187.96" y1="106.68" x2="195.58" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="R19" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="NC_D4_R" class="0">
 <segment>
 <pinref part="SV2" gate="1" pin="5"/>
 <wire x1="187.96" y1="104.14" x2="195.58" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="R20" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="NC_D2_R" class="0">
 <segment>
 <pinref part="SV2" gate="1" pin="3"/>
 <wire x1="187.96" y1="101.6" x2="195.58" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="R21" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$21" class="0">
+<net name="NC_D0_R" class="0">
 <segment>
 <pinref part="SV2" gate="1" pin="1"/>
 <wire x1="187.96" y1="99.06" x2="195.58" y2="99.06" width="0.1524" layer="91"/>
@@ -15885,39 +15850,74 @@ Attribution ShareAlike (CC BY-SA)</text>
 <pinref part="R23" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$23" class="0">
+<net name="NC_A3_R" class="0">
 <segment>
 <pinref part="SV1" gate="1" pin="4"/>
 <wire x1="172.72" y1="160.02" x2="165.1" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="R24" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$24" class="0">
+<net name="NC_A1_R" class="0">
 <segment>
 <pinref part="SV1" gate="1" pin="2"/>
 <wire x1="172.72" y1="157.48" x2="165.1" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="R25" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$25" class="0">
+<net name="NC_A4_R" class="0">
 <segment>
 <pinref part="SV1" gate="1" pin="5"/>
 <wire x1="187.96" y1="162.56" x2="200.66" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="R26" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$26" class="0">
+<net name="NC_A2_R" class="0">
 <segment>
 <pinref part="SV1" gate="1" pin="3"/>
 <wire x1="187.96" y1="160.02" x2="200.66" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="R27" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$27" class="0">
+<net name="NC_A0_R" class="0">
 <segment>
 <pinref part="SV1" gate="1" pin="1"/>
 <wire x1="187.96" y1="157.48" x2="200.66" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="R28" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="NC_D12_R" class="0">
+<segment>
+<pinref part="SV2" gate="1" pin="10"/>
+<wire x1="172.72" y1="109.22" x2="162.56" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="NC_D1_R" class="0">
+<segment>
+<pinref part="SV2" gate="1" pin="2"/>
+<wire x1="172.72" y1="99.06" x2="162.56" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="R16" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="NC_D3_R" class="0">
+<segment>
+<pinref part="SV2" gate="1" pin="4"/>
+<wire x1="172.72" y1="101.6" x2="162.56" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="R15" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="NC_D7_R" class="0">
+<segment>
+<pinref part="SV2" gate="1" pin="8"/>
+<wire x1="172.72" y1="106.68" x2="162.56" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="NC_D12" class="0">
+<segment>
+<wire x1="152.4" y1="109.22" x2="144.78" y2="109.22" width="0.1524" layer="91"/>
+<label x="144.78" y="109.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="R9" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
@@ -16385,6 +16385,18 @@ Attribution ShareAlike (CC BY-SA)</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,126.896,83.716,FRAME1,,,,,"/>
+<approved hash="113,3,46.9477,133.64,SERV_MOTOR2,,,,,"/>
+<approved hash="113,3,46.9477,161.58,SERV_MOTOR1,,,,,"/>
+<approved hash="113,3,46.9477,105.7,SERV_MOTOR3,,,,,"/>
+<approved hash="113,4,78.636,27.836,FRAME3,,,,,"/>
+<approved hash="113,3,205.636,129.436,FRAME4,,,,,"/>
+<approved hash="113,3,46.9477,75.2196,RANGEFINDER,,,,,"/>
+<approved hash="113,3,180.34,161.58,SV1,,,,,"/>
+<approved hash="113,3,180.34,106.97,SV2,,,,,"/>
+<approved hash="113,3,46.9477,42.1996,EX_PWR_GND,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
