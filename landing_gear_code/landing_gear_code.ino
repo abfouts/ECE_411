@@ -19,6 +19,10 @@ void setup() {
   servo3.attach(28);
   pinMode(trigPin, OUTPUT); // Sets the trigPin as an Output
   pinMode(echoPin, INPUT); // Sets the echoPin as an 
+
+    servo1.write(95);
+    servo2.write(12);
+    servo3.write(85);
 }
 
 void loop() {
@@ -37,20 +41,20 @@ distance= duration*0.034/2;
 delay(100);
 Serial.print("Distance: ");
 Serial.println(distance);
-if (distance > 10) {
+if (distance > 20) {
   counterUp = counterUp + 1;
   if (counterUp >= 35) {
-    servo1.write(90);
-    servo2.write(90);
-    servo3.write(90);
+    servo1.write(15);
+    servo2.write(85);
+    servo3.write(175);
     counterDown = 0;
   }
 } else {
   counterDown = counterDown + 1;
   if (counterDown >= 20) {
-    servo1.write(0);
-    servo2.write(0);
-    servo3.write(0);
+    servo1.write(95);
+    servo2.write(12);
+    servo3.write(85);
     counterUp = 0;
   }
 }
