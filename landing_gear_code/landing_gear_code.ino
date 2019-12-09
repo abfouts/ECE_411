@@ -35,12 +35,13 @@ delayMicroseconds(10);
 digitalWrite(trigPin, LOW);
 // Reads the echoPin, returns the sound wave travel time in microseconds
 duration = pulseIn(echoPin, HIGH);
-// Calculating the distance
+// Calculating the distance in cm
 distance= duration*0.034/2;
 // Prints the distance on the Serial Monitor
-delay(100);
+delay(100); //Delay of 0.1 seconds
 Serial.print("Distance: ");
 Serial.println(distance);
+//Checks for distance then adds to a counter to lower or raise the landing gear
 if (distance > 20) {
   counterUp = counterUp + 1;
   if (counterUp >= 35) {
